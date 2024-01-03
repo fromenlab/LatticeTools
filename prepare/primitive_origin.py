@@ -100,7 +100,7 @@ class Primitive(component):
     
     def RegisterOutputParams(self, pManager):
         p = Grasshopper.Kernel.Parameters.Param_GenericObject()
-        self.SetUpParam(p, "primitive", "primitive", "The primitive as a closed mesh")
+        self.SetUpParam(p, "primitive", "primitive", "The primitive as a mesh")
         self.Params.Output.Add(p)
         
         p = Grasshopper.Kernel.Parameters.Param_GenericObject()
