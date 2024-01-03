@@ -1,6 +1,6 @@
 import clr
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 file_name = "LatticeTools-" + __version__ + ".ghpy"
 
 clr.CompileModules(file_name, 

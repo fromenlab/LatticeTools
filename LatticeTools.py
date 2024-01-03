@@ -5,7 +5,7 @@ import Rhino
 from Rhino.Geometry import Point3d as p3
 import rhinoscriptsyntax as rs
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 class AssemblyInfo(GhPython.Assemblies.PythonAssemblyInfo):
     def get_AssemblyName(self):
